@@ -21,7 +21,7 @@
 | 17  | очко                                                            | -         |
 | 18  | $\int\limits_0^1 xe^{-x}dx$                                     | [Go](#18) |
 | 19  | $xy'-y=x^3$                                                     | [Go](#19) |
-| 20  | -                                                               | -         |
+| 20  | $y''-4y'+3y=cos2x$                                              | [Go](#20) |
 | 21  | $\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$          | -         |
 | 22  | $\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$                     | [Go](#22) |
 
@@ -218,6 +218,41 @@ $$
 ![number19](./img/19_2.png)
 
 См. Лекции стр. 100
+
+# 20
+
+$y''-4y'+3y=cos2x$
+
+1. $r^2-4r+3=0$
+
+   $r_1=3,r_2=1$
+
+   $Y=C_1e^{3x}+C_2e^x$
+
+2. $\widetilde{y}=Acos2x+Bsin2x$
+
+   $\widetilde{y}' = -2Asin2x +2Bcos2x$
+
+   $\widetilde{y}''=-4Acos2x-4Bsin2x$
+
+   $(8A-B)sin2x+(-8B-A)*cos2x=cos2x$
+
+   $
+   \begin{cases}
+   8A-B=0\\
+   -8B-A=1
+   \end{cases}
+   $,
+   $
+   \begin{cases}
+   B=-\frac{8}{65}\\
+   A=-\frac{1}{65}
+   \end{cases}
+   $
+
+   $\widetilde{y}=-\frac{1}{65}cos2x-\frac{8}{65}sin2x$
+
+3. $y=Y+\widetilde{y}=C_1e^{3x}+C_2e^x-\frac{1}{65}cos2x-\frac{8}{65}$
 
 ## 22
 
