@@ -5,7 +5,7 @@
 | 1   | $(x^2 - 2xy)dy=(xy-y^2)dx$                                      | [Go](#1)  |
 | 2   | $\int\limits_{-\frac{1}{7}}^{1}\frac{xdx}{\sqrt{8+2x-x^2}}$     | [Go](#2)  |
 | 3   | $y'' +4y = 2cos2x$                                              | [Go](#3)  |
-| 4   | $\sum\limits_{n=1}^\infin(\frac{4n+1}{3n^2+5})^n$               | -         |
+| 4   | $\sum\limits_{n=1}^\infin(\frac{4n+1}{3n^2+5})^n$               | [Go](#4)  |
 | 5   | $\int\limits_0^{e-1}ln(x+1)dx$                                  | [Go](#5)  |
 | 6   | $y'+\frac{1}{x}y=\frac{sinx}{x}$                                | [Go](#6)  |
 | 7   | $\sum\limits_{n=1}^\infin\frac{2n+1}{n!}x^n$                    | [Go](#7)  |
@@ -87,6 +87,21 @@ $$
 
    Ответ: $y=C_1cos2x+C_2sin2x+\frac{1}{2}xsin2x$
 
+# 4
+
+$\sum\limits_{n=1}^\infty(\frac{4n+1}{3n^2+5})^n$
+
+Признак Коши, лекции стр.152
+
+$\underset{n\to\infty}{lim}\frac{4n+1}{3n^2+5}=[\frac{\infty}{\infty}]$
+
+Применим правило Лопиталя
+
+$\underset{n\to\infty}{lim}\frac{4n+1}{3n^2+5}=
+\underset{n\to\infty}{lim}\frac{4}{6n}=0$
+
+Ответ: ряд сходится
+
 # 5
 
 **Берман: №2264, стр 146**
@@ -128,6 +143,8 @@ $$
 Решение:
 
 ![number7](./img/7.png)
+
+Ответ: ряд сходится на всей числовой прямой
 
 # 10
 
