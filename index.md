@@ -9,21 +9,21 @@
 | 5   | $\int\limits_0^{e-1}ln(x+1)dx$                                  | [Go](#5)  |
 | 6   | $y'+\frac{1}{x}y=\frac{sinx}{x}$                                | [Go](#6)  |
 | 7   | $\sum\limits_{n=1}^\infin\frac{2n+1}{n!}x^n$                    | [Go](#7)  |
-| 8   | -                                                               | -         |
-| 9   | -                                                               | -         |
+| 8   | очко                                                            | -         |
+| 9   | очко                                                            | -         |
 | 10  | $\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\frac{dx}{1+cosx}$ | [Go](#10) |
 | 11  | $y''-4y'+3y=xe^x$                                               | [Go](#11) |
 | 12  | $xy'-y+xtg\frac{y}{x}=0$                                        | [Go](#12) |
 | 13  | -                                                               | -         |
 | 14  | -                                                               | -         |
 | 15  | -                                                               | -         |
-| 16  | -                                                               | -         |
-| 17  | -                                                               | -         |
+| 16  | очко                                                            | -         |
+| 17  | очко                                                            | -         |
 | 18  | $\int\limits_0^1 xe^{-x}dx$                                     | [Go](#18) |
 | 19  | $xy'-y=x^3$                                                     | [Go](#19) |
 | 20  | -                                                               | -         |
-| 21  | -                                                               | -         |
-| 22  | -                                                               | -         |
+| 21  | $\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$          | -         |
+| 22  | $\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$                     | [Go](#22) |
 
 # 1
 
@@ -134,7 +134,7 @@ $$
 **Есть в лекции**
 
 В этом номере степенной ряд
-
+$\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$
 В теории степенных рядов центральное место занимает следующая
 теорема:
 
@@ -181,8 +181,8 @@ $\frac{x}{dx}=-\frac{tgu}{du}$
 $\int\frac{-1}{tgu}du=\int\frac{dx}{x}$
 
 - $\int\frac{-1}{tgu}du=-\int\frac{cosu}{sinu}du = -\int\frac{1}{sinu}dsinu=-ln(sinu)+c$
-
-$-ln(sinu)=lnx-lnc$
+  $\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$
+  $-ln(sinu)=lnx-lnc$
 
 $ln(\frac{1}{sinu})=ln(\frac{c}{x})$
 
@@ -190,7 +190,7 @@ $ln(\frac{1}{sinu})=ln(\frac{c}{x})$
 
 # 18
 
-**Берман: №2259, стр 146 но нет в решебнике**
+**Берман: №2259, стр 146**
 
 Интегрируем по частям
 
@@ -218,3 +218,9 @@ $$
 ![number19](./img/19_2.png)
 
 См. Лекции стр. 100
+
+## 22
+
+**Есть в лекции стр.168**
+
+![number22](./img/22.png)
