@@ -2,7 +2,7 @@
 
 1. $(x^2 - 2xy)dy=(xy-y^2)dx$ [Решение](#1) **Есть в лекции**
 2. $\int\limits_{-\frac{1}{7}}^{1}\frac{xdx}{\sqrt{8+2x-x^2}}$ [Решение](#2) **Решил, но не нашел**
-3. $y' +4y = 2cos2x$
+3. $y'' +4y = 2cos2x$ [Решение](#2)
 4. $\sum\limits_{n=1}^\infin(\frac{4n+1}{3n^2+5})^n$
 5. $\int\limits_0^{e-1}ln(x+1)dx$ [Решение](#5) **№2264, стр 146**
 6. $y'+\frac{1}{x}y=\frac{sinx}{x}$ [Решение](#6) **Есть в лекции**
@@ -32,13 +32,56 @@
 
 # 2
 
-$
+$$
 \int\limits_{-\frac{1}{7}}^{1}\frac{xdx}{\sqrt{8+2x-x^2}} =
 \int\limits_{-\frac{1}{7}}^{1}\frac{(x-1+1)dx}{\sqrt{9-(x-1)^2}} =
 \int\limits_{-\frac{1}{7}}^{1}\frac{(x-1)dx}{\sqrt{9-(x-1)^2}}+
 \int\limits_{-\frac{1}{7}}^{1}\frac{dx}{\sqrt{9-(x-1)^2}} =
 arcsin(\frac{x-1}{3}) - \sqrt{9-(x-1)^2} \Bigg|_{-\frac{1}{7}}^1
-$
+$$
+
+# 3
+
+Решить неоднородное дифференциальное уравнение
+второго порядка $y'' +4y = 2cos2x$
+
+1. Сначала нужно найти общее решение $Y$ соответствующего однородного уравнения.
+2. Необходимо найти какое-либо частное решение $\widetilde{y}$ неоднородного уравнения
+3. составить общее решение $y=Y+\widetilde{y}$ неоднородного уравнения
+
+Решение:
+
+1. $\lambda^2+4=0$
+
+   $\lambda^2=-4$
+
+   $\lambda=\pm2i$
+
+   $Y=e^{0x}(C_1cos2x+C_2sin2x)=C_1cos2x+C_2sin2x$
+
+2. $\widetilde{y}=Axcos2x+Bxsin2x$ (подобрали с помощью таблицы по [ссылке](http://mathprofi.ru/kak_podobrat_chastnoe_reshenie_dy.pdf))
+
+   $\widetilde{y}'=Acos2x-2Asin2x+Bsin2x+2Bcos2x$
+
+   $\widetilde{y}''=-2Asin2x-2Asin2x-4Axcos2x+2Bcos2x+Bcos2x-4Bxsin2x=$
+
+   $=4(-Asin2x-Axcos2x+Bcos2x-Bxsin2x)$
+
+   Подставляем в исходное уравнение
+
+   $4(-Asin2x-Axcos2x+Bcos2x-Bxsin2x)+4(Axcos2x+Bxsin2x)=$
+
+   $=-4Asin2x+4Bcos2x=f(x), f(x) = 2cos2x$
+
+   $-4Asin2x+4Bcos2x=2cos2x$
+
+   $A=0; B=\frac{1}{2}$
+
+   $\widetilde{y}=\frac{1}{2}xsin2x$ (частное решение)
+
+3. $y=Y+\widetilde{y}$
+
+   Ответ: $y=C_1cos2x+C_2sin2x+\frac{1}{2}xsin2x$
 
 # 5
 
