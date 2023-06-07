@@ -13,7 +13,7 @@
 | 9   | -                                                               | -         |
 | 10  | $\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\frac{dx}{1+cosx}$ | [Go](#10) |
 | 11  | $y''-4y'+3y=xe^x$                                               | [Go](#11) |
-| 12  | -                                                               | -         |
+| 12  | $xy'-y+xtg\frac{y}{x}=0$                                        | [Go](#12) |
 | 13  | -                                                               | -         |
 | 14  | -                                                               | -         |
 | 15  | -                                                               | -         |
@@ -165,6 +165,28 @@ $$
 ![number19](./img/11.png)
 
 См. Лекции стр. 107
+
+# 12
+
+$xy'-y+xtg\frac{y}{x}=0$
+
+$y'=\frac{y}{x}-tg\frac{y}{x}$
+
+$u=\frac{y}{x}; y=ux; y'=u+u'x$
+
+$u+u'x=u-tgu$
+
+$\frac{x}{dx}=-\frac{tgu}{du}$
+
+$\int\frac{-1}{tgu}du=\int\frac{dx}{x}$
+
+- $\int\frac{-1}{tgu}du=-\int\frac{cosu}{sinu}du = -\int\frac{1}{sinu}dsinu=-ln(sinu)+c$
+
+$-ln(sinu)=lnx-lnc$
+
+$ln(\frac{1}{sinu})=ln(\frac{c}{x})$
+
+Ответ: $c\cdot sin\frac{y}{x}=x$
 
 # 18
 
