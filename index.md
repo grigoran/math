@@ -15,8 +15,8 @@
 | 11  | $y''-4y'+3y=xe^x$                                               | [Go](#11) |
 | 12  | $xy'-y+xtg\frac{y}{x}=0$                                        | [Go](#12) |
 | 13  | $\int\frac{3xdx}{2x^2+3x-2}$ хз какие пределы интегрирования    | [Go](#13) |
-| 14  | -                                                               | -         |
-| 15  | -                                                               | -         |
+| 14  | Не понятно                                                      | -         |
+| 15  | $\sum\limits_{n=1}^\infin\frac{4^n}{n}(x-2)^n$                  | [Go](#15) |
 | 16  | очко                                                            | -         |
 | 17  | очко                                                            | -         |
 | 18  | $\int\limits_0^1 xe^{-x}dx$                                     | [Go](#18) |
@@ -61,10 +61,12 @@
     - Разложение знаменателя на множетели
     - +2-2
     - Разложение на простые дроби
-14.
-15.
-16.
-17.
+14. 0
+15. $\sum\limits_{n=1}^\infin\frac{4^n}{n}(x-2)^n$
+    - $R=lim_{n\to\infin}|\frac{a_n}{a_{n+1}}|$ - радиус сходимости
+    - На забыть проверить концы
+16. 0
+17. 0
 18. $\int\limits_0^1 xe^{-x}dx$
     - по частям
 19. $xy'-y=x^3$
@@ -255,6 +257,20 @@ $3\int\frac{(x+2-2)dx}{(x+2)(x-\frac{1}{2})}=3\int\frac{dx}{x-\frac{1}{2}}-6\int
 - $\frac{1}{(x+2)(x-\frac{1}{2})}=\frac{2}{5}\frac{1}{x-\frac{1}{2}}-\frac{2}{5}\frac{1}{x+2}$ (Разложил на простые дроби)
 
 $\int\frac{3xdx}{2x^2+3x-2}=\frac{3ln|x-\frac{1}{2}|+12ln|x+2|}{5}+c$
+
+# 15
+
+$\sum\limits_{n=1}^\infin\frac{4^n}{n}(x-2)^n$
+
+$R=lim_{n\to\infin}|\frac{a_n}{a_{n+1}}|$
+
+$R=lim_{n\to\infin}\frac{n+1}{n\cdot4\cdot(x-2)}=\frac{1}{4}, -\frac{1}{4}<x-2<\frac{1}{4}\Rightarrow(\frac{7}{4};\frac{9}{4})$
+
+$x=\frac{7}{4}: lim_{n\to\infin}\frac{4^n}{n}(-\frac{1}{4})^n=0 \Rightarrow$ сходится
+
+$x=\frac{9}{4}: lim_{n\to\infin}\frac{4^n}{n}(\frac{1}{4})^n=0 \Rightarrow$ сходится
+
+Ответ: интервал сходимости $[\frac{7}{4};\frac{9}{4}]$
 
 # 18
 
