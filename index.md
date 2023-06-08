@@ -25,6 +25,58 @@
 | 21  | $\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$          | -         |
 | 22  | $\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$                     | [Go](#22) |
 
+# Кратко
+
+1.  $(x^2 - 2xy)dy=(xy-y^2)dx$
+
+    - $\frac{y}{x}=u, y=ux, y'=u+u'x$
+
+2.  $\int\limits_{-\frac{1}{7}}^{1}\frac{xdx}{\sqrt{8+2x-x^2}}$
+    - В числителе +1-1
+    - В знаменателе выделить полный квадрат
+3.  $y'' +4y = 2cos2x$
+    1.  $Y=e^{0x}(C_1cos2x+C_2sin2x)=C_1cos2x+C_2sin2x$
+    2.  $\widetilde{y}=Axcos2x+Bxsin2x$ (подобрали с помощью таблицы по [ссылке](http://mathprofi.ru/kak_podobrat_chastnoe_reshenie_dy.pdf))
+    3.  $y=Y+\widetilde{y}$
+4.  $\sum\limits_{n=1}^\infin(\frac{4n+1}{3n^2+5})^n$
+    - Признак Коши, лекции стр.152
+    - Лопиталь
+5.  $\int\limits_0^{e-1}ln(x+1)dx$
+    - По частям
+6.  $y'+\frac{1}{x}y=\frac{sinx}{x}$
+    - $y=uv, y'=u'v+uv'$
+7.  $\sum\limits_{n=1}^\infin\frac{2n+1}{n!}x^n$
+    - $R=lim_{n\to\infin}|\frac{a_n}{a_{n+1}}|$ - радиус сходимости
+8.
+9.
+10. $\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\frac{dx}{1+cosx}$
+    - Повысить степень косинуса
+11. $y''-4y'+3y=xe^x$
+    1.  $Y=C_1e^x+C_2e^{3x}$
+    2.  $\widetilde{y}=x(Ax+B)e^x$ (подобрали с помощью таблицы по [ссылке](http://mathprofi.ru/))
+12. $xy'-y+xtg\frac{y}{x}=0$
+    - $u=\frac{y}{x}; y=ux; y'=u+u'x$
+13. $\int\frac{3xdx}{2x^2+3x-2}$
+    - Разложение знаменателя на множетели
+    - +2-2
+    - Разложение на простые дроби
+14.
+15.
+16.
+17.
+18. $\int\limits_0^1 xe^{-x}dx$
+    - по частям
+19. $xy'-y=x^3$
+
+    - $y=uv, y'=u'v+uv'$
+
+20. $y''-4y'+3y=cos2x$
+    1.  $Y=C_1e^{3x}+C_2e^x$
+    2.  $\widetilde{y}=Acos2x+Bsin2x$
+21. $\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$
+22. $\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$
+    - $R=lim_{n\to\infin}|\frac{a_n}{a_{n+1}}|$ - радиус сходимости
+
 # 1
 
 **Есть в лекции**
@@ -202,7 +254,7 @@ $\int\frac{3xdx}{2x^2+3x-2}=\frac{3ln|x-\frac{1}{2}|+12ln|x+2|}{5}+c$
 
 # 18
 
-**Берман: №2259, стр 146**
+> **Берман: №2259, стр 146**
 
 Интегрируем по частям
 
