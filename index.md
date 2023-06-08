@@ -22,7 +22,7 @@
 | 18  | $\int\limits_0^1 xe^{-x}dx$                                     | [Go](#18) |
 | 19  | $xy'-y=x^3$                                                     | [Go](#19) |
 | 20  | $y''-4y'+3y=cos2x$                                              | [Go](#20) |
-| 21  | $\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$          | -         |
+| 21  | $\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$          | [Go](#21) |
 | 22  | $\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$                     | [Go](#22) |
 
 # Кратко
@@ -75,6 +75,7 @@
     1.  $Y=C_1e^{3x}+C_2e^x$
     2.  $\widetilde{y}=Acos2x+Bsin2x$
 21. $\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$
+    - достаточный признак сходимости рядов с членами произвольных знаков
 22. $\sum\limits_{n=0}^\infty\frac{n}{3n-2}x^n$
     - $R=lim_{n\to\infin}|\frac{a_n}{a_{n+1}}|$ - радиус сходимости
 
@@ -320,6 +321,13 @@ $y''-4y'+3y=cos2x$
    $\widetilde{y}=-\frac{1}{65}cos2x-\frac{8}{65}sin2x$
 
 3. $y=Y+\widetilde{y}=C_1e^{3x}+C_2e^x-\frac{1}{65}cos2x-\frac{8}{65}$
+
+# 21
+
+$\sum\limits_{n=1}^\infin\frac{(-1)^n(n+2)}{n^2+4n-1}$(1)
+
+$lim_{n\to\infin}\frac{n+2}{n^2+4n-1}=0 \Rightarrow$
+ряд (1) сходится по достаточному признаку сходимости ряда с членами произвольных знаков
 
 # 22
 
