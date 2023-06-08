@@ -14,7 +14,7 @@
 | 10  | $\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\frac{dx}{1+cosx}$ | [Go](#10) |
 | 11  | $y''-4y'+3y=xe^x$                                               | [Go](#11) |
 | 12  | $xy'-y+xtg\frac{y}{x}=0$                                        | [Go](#12) |
-| 13  | -                                                               | -         |
+| 13  | $\int\frac{3xdx}{2x^2+3x-2}$ хз какие пределы интегрирования    | [Go](#13) |
 | 14  | -                                                               | -         |
 | 15  | -                                                               | -         |
 | 16  | очко                                                            | -         |
@@ -187,6 +187,18 @@ $\int\frac{-1}{tgu}du=\int\frac{dx}{x}$
 $ln(\frac{1}{sinu})=ln(\frac{c}{x})$
 
 Ответ: $c\cdot sin\frac{y}{x}=x$
+
+# 13
+
+$\int\frac{3xdx}{2x^2+3x-2}$
+
+- $2x^2+3x-2=(x+2)(x-\frac{1}{2})$ (Разложил на множители)
+
+$3\int\frac{(x+2-2)dx}{(x+2)(x-\frac{1}{2})}=3\int\frac{dx}{x-\frac{1}{2}}-6\int\frac{dx}{(x+2)(x-\frac{1}{2})}$
+
+- $\frac{1}{(x+2)(x-\frac{1}{2})}=\frac{2}{5}\frac{1}{x-\frac{1}{2}}-\frac{2}{5}\frac{1}{x+2}$ (Разложил на простые дроби)
+
+$\int\frac{3xdx}{2x^2+3x-2}=\frac{3ln|x-\frac{1}{2}|+12ln|x+2|}{5}+c$
 
 # 18
 
