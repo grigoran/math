@@ -10,7 +10,7 @@
 | 6   | $y'+\frac{1}{x}y=\frac{sinx}{x}$                                | [Go](#6)  |
 | 7   | $\sum\limits_{n=1}^\infin\frac{2n+1}{n!}x^n$                    | [Go](#7)  |
 | 8   | $f(t)=(2+t)^2e^{-2t}+e^tcos4t$                                  | [Go](#8)  |
-| 9   | очко                                                            | -         |
+| 9   | $F(p)=\frac{e^p}{p-4}+\frac{p}{p^2+3p+\frac{5}{2}}$             | [Go](#9)  |
 | 10  | $\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\frac{dx}{1+cosx}$ | [Go](#10) |
 | 11  | $y''-4y'+3y=xe^x$                                               | [Go](#11) |
 | 12  | $xy'-y+xtg\frac{y}{x}=0$                                        | [Go](#12) |
@@ -50,7 +50,10 @@
 8.  $f(t)=(2+t)^2e^{-2t}+e^tcos4t$
     - Теорема смещения
     - табличка
-9.
+9.  $F(p)=\frac{e^p}{p-4}+\frac{p}{p^2+3p+\frac{5}{2}}$
+    - Теорема запаздывания
+    - Теорема смещения
+    - табличка
 10. $\int\limits_{-\frac{\pi}{2}}^{\frac{\pi}{2}}\frac{dx}{1+cosx}$
     - Повысить степень косинуса
 11. $y''-4y'+3y=xe^x$
@@ -217,6 +220,19 @@ $(2+t)^2e^{-2t} \doteqdot \frac{2}{(p+2)^3}+\frac{4}{(p+2)^2}+\frac{4}{p+2}$
 $e^tcos4t \doteqdot \frac{p-1}{(p-1)^2+16}$
 
 Ответ: $F(p)=\frac{2}{(p+2)^3}+\frac{4}{(p+2)^2}+\frac{4}{p+2}+\frac{p-1}{(p-1)^2+16}$
+
+# 9
+
+$F(p)=\frac{e^p}{p-4}+\frac{p}{p^2+3p+\frac{5}{2}}$
+
+> $\frac{e^p}{p-4}, \tau=-1 \doteqdot e^{4(t+1)}$ (По теореме запаздывания)
+
+$\frac{p}{p^2+3p+\frac{5}{2}} = \frac{p}{p^2+3p+\frac{9}{4}+\frac{1}{4}}=$
+$\frac{p+\frac{3}{2}-\frac{3}{2}}{(p+\frac{3}{2})^2+\frac{1}{4}}=$
+$\frac{p+\frac{3}{2}}{(p+\frac{3}{2})^2+\frac{1}{4}}-3\frac{\frac{1}{2}}{(p+\frac{3}{2})^2+\frac{1}{4}}$
+$\doteqdot e^{-\frac{3}{2}t}cos\frac{t}{2}-3e^{-\frac{3}{2}t}sin\frac{t}{2}$ (по теореме смещения)
+
+$f(t)=e^{4(t+1)}+e^{-\frac{3}{2}t}cos\frac{t}{2}-3e^{-\frac{3}{2}t}sin\frac{t}{2}$
 
 # 10
 
